@@ -1,15 +1,14 @@
-// Let Keyword
-// Stores user email
+let hasMemberShip = true
+let signIn = true
 
-let userEmail = "minhhoangspecial@gmail.com"
-console.log(userEmail)
-userEmail = "deptraithimoiconhieugaiyeu"
-let age = 16
-let myname = "bin"
-console.log(userEmail, age, myname)
-
-//Const Keyword
-
-const points = 100;
-
-console.log(points)
+if (hasMemberShip) {
+    if (signIn) {
+        console.log("pls update to membership")
+    }
+    else {
+        console.log("pls log in")
+    }
+}
+else {
+    console.log("please log in")
+}
