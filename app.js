@@ -1,3 +1,5 @@
-for (i = 1; i <= 15; i++) {
-    i % 5 === 0 ? console.log(`${i} ASAP Frontend`) : i % 2 === 0 ? console.log(`${i} ASAP`) : console.log(`${i} Frontend`)
+const convertUsdToAud = (USD) => {
+    return USD * 1.5
 }
+
+console.log(convertUsdToAud(1000))
