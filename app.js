@@ -1,14 +1,11 @@
-let hasMemberShip = true
-let signIn = true
+let age = 16
 
-if (hasMemberShip) {
-    if (signIn) {
-        console.log("pls update to membership")
-    }
-    else {
-        console.log("pls log in")
-    }
+if (age >= 19) {
+    console.log(`You are ${age}, you may enter club!`)
+}
+else if (age === 18) {
+    console.log("You just turned 18, welcome!")
 }
 else {
-    console.log("please log in")
+    console.log(`You are ${age}, you are not legal to enter!`)
 }
