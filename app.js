@@ -1,12 +1,3 @@
-// let counter = 0;
-
-// while (counter < 20) {
-//     counter = counter + 1;
-//     console.log(counter)
-// }
-
-// console.log("while loop finished running");
-
-for (let i = 0; i < 20; i += 3) {
-    console.log(i)
+for (i = 1; i <= 15; i++) {
+    i % 5 === 0 ? console.log("ASAP Frontend") : i % 2 === 0 ? console.log("ASAP") : console.log("Frontend")
 }
