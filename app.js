@@ -1,5 +1,5 @@
-const convertUsdToAud = (USD) => {
-    return USD * 1.5
-}
+let array = [100, 150, 35]
 
-console.log(convertUsdToAud(1000))
+let newArray = array.map(element => element * 1.5)
+
+console.log(newArray)
