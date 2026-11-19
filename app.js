@@ -1,5 +1,12 @@
-let array = [100, 150, 35]
+let user = {
+    email: "abc@gmail.com",
+    password: "abc123",
+    name: "DavidDH",
+    discord: "disss",
+    subcription: "VIP+",
+    lessonsCompleted: [1, 2, 3]
+}
 
-let newArray = array.map(element => element * 1.5)
+console.log(user.discord)
 
-console.log(newArray)
+console.log(user.lessonsCompleted)
