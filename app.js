@@ -1,12 +1,32 @@
-let user = {
-    email: "abc@gmail.com",
-    password: "abc123",
-    name: "DavidDH",
-    discord: "disss",
-    subcription: "VIP+",
-    lessonsCompleted: [1, 2, 3]
+let allUsers = []
+
+function signUp(
+    email,
+    password,
+    name,
+    discord,
+    subcription,
+    lessonCompleted
+) {
+    let user = {
+        email: email,
+        password: password,
+        name: name,
+        discord: discord,
+        subcription: subcription,
+        lessonCompleted: lessonCompleted
+    }
+
+    allUsers.push(user)
 }
 
-console.log(user.discord)
+signUp(
+    "minh@gmail",
+    "abc",
+    "minh",
+    "DHV",
+    "VIP+",
+    "1,3,5,7"
+)
 
-console.log(user.lessonsCompleted)
+console.log(allUsers)
